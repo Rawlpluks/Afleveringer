@@ -1,0 +1,87 @@
+Log-Transformed Model Results:
+\begin{center}
+\begin{tabular}{lclc}
+\toprule
+\textbf{Dep. Variable:}     &      dlogS       & \textbf{  R-squared:         } &     0.492   \\
+\textbf{Model:}             &       OLS        & \textbf{  Adj. R-squared:    } &     0.490   \\
+\textbf{Method:}            &  Least Squares   & \textbf{  F-statistic:       } &     179.8   \\
+\textbf{Date:}              & Fri, 01 Nov 2024 & \textbf{  Prob (F-statistic):} &     0.00    \\
+\textbf{Time:}              &     13:45:15     & \textbf{  Log-Likelihood:    } &   -17001.   \\
+\textbf{No. Observations:}  &        9694      & \textbf{  AIC:               } & 3.411e+04   \\
+\textbf{Df Residuals:}      &        9641      & \textbf{  BIC:               } & 3.449e+04   \\
+\textbf{Df Model:}          &          52      & \textbf{                     } &             \\
+\textbf{Covariance Type:}   &    nonrobust     & \textbf{                     } &             \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lcccccc}
+                            & \textbf{coef} & \textbf{std err} & \textbf{t} & \textbf{P$> |$t$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
+\midrule
+\textbf{const}              &     -25.0694  &        1.695     &   -14.787  &         0.000        &      -28.393    &      -21.746     \\
+\textbf{price}              &      -0.0304  &        0.001     &   -21.054  &         0.000        &       -0.033    &       -0.028     \\
+\textbf{log\_hp}            &       0.4588  &        0.101     &     4.520  &         0.000        &        0.260    &        0.658     \\
+\textbf{log\_mpg}           &       0.3025  &        0.114     &     2.648  &         0.008        &        0.079    &        0.526     \\
+\textbf{log\_height}        &      -1.4209  &        0.271     &    -5.238  &         0.000        &       -1.953    &       -0.889     \\
+\textbf{log\_footprint}     &       2.9759  &        0.223     &    13.319  &         0.000        &        2.538    &        3.414     \\
+\textbf{log\_weight}        &      -0.9429  &        0.214     &    -4.398  &         0.000        &       -1.363    &       -0.523     \\
+\textbf{log\_number\_trims} &       1.5017  &        0.024     &    62.389  &         0.000        &        1.455    &        1.549     \\
+\textbf{releaseYear}        &      -0.6025  &        0.055     &   -11.013  &         0.000        &       -0.710    &       -0.495     \\
+\textbf{yearsSinceDesign}   &      -0.1114  &        0.005     &   -21.793  &         0.000        &       -0.121    &       -0.101     \\
+\textbf{sport}              &      -0.5414  &        0.055     &    -9.756  &         0.000        &       -0.650    &       -0.433     \\
+\textbf{EV}                 &      -0.9052  &        0.171     &    -5.278  &         0.000        &       -1.241    &       -0.569     \\
+\textbf{truck}              &      -0.6713  &        0.074     &    -9.115  &         0.000        &       -0.816    &       -0.527     \\
+\textbf{suv}                &       0.6564  &        0.057     &    11.489  &         0.000        &        0.544    &        0.768     \\
+\textbf{van}                &       0.1449  &        0.083     &     1.737  &         0.082        &       -0.019    &        0.309     \\
+\textbf{year\_1981}         &       0.1371  &        0.154     &     0.889  &         0.374        &       -0.165    &        0.439     \\
+\textbf{year\_1982}         &      -0.6488  &        0.152     &    -4.261  &         0.000        &       -0.947    &       -0.350     \\
+\textbf{year\_1983}         &       0.3675  &        0.152     &     2.412  &         0.016        &        0.069    &        0.666     \\
+\textbf{year\_1984}         &       0.0912  &        0.153     &     0.597  &         0.551        &       -0.208    &        0.391     \\
+\textbf{year\_1985}         &       0.2072  &        0.151     &     1.374  &         0.170        &       -0.088    &        0.503     \\
+\textbf{year\_1986}         &       0.1364  &        0.149     &     0.915  &         0.360        &       -0.156    &        0.429     \\
+\textbf{year\_1987}         &       0.2650  &        0.149     &     1.779  &         0.075        &       -0.027    &        0.557     \\
+\textbf{year\_1988}         &       0.0360  &        0.149     &     0.242  &         0.809        &       -0.256    &        0.328     \\
+\textbf{year\_1989}         &      -0.3525  &        0.146     &    -2.414  &         0.016        &       -0.639    &       -0.066     \\
+\textbf{year\_1990}         &      -0.5241  &        0.146     &    -3.593  &         0.000        &       -0.810    &       -0.238     \\
+\textbf{year\_1991}         &      -0.6630  &        0.147     &    -4.507  &         0.000        &       -0.951    &       -0.375     \\
+\textbf{year\_1992}         &      -0.6139  &        0.147     &    -4.175  &         0.000        &       -0.902    &       -0.326     \\
+\textbf{year\_1993}         &      -0.6075  &        0.149     &    -4.082  &         0.000        &       -0.899    &       -0.316     \\
+\textbf{year\_1994}         &      -0.3415  &        0.149     &    -2.287  &         0.022        &       -0.634    &       -0.049     \\
+\textbf{year\_1995}         &      -0.5388  &        0.150     &    -3.593  &         0.000        &       -0.833    &       -0.245     \\
+\textbf{year\_1996}         &      -0.4249  &        0.151     &    -2.821  &         0.005        &       -0.720    &       -0.130     \\
+\textbf{year\_1997}         &      -0.3419  &        0.151     &    -2.265  &         0.024        &       -0.638    &       -0.046     \\
+\textbf{year\_1998}         &      -0.5610  &        0.151     &    -3.720  &         0.000        &       -0.857    &       -0.265     \\
+\textbf{year\_1999}         &      -0.5568  &        0.152     &    -3.674  &         0.000        &       -0.854    &       -0.260     \\
+\textbf{year\_2000}         &      -0.3329  &        0.152     &    -2.187  &         0.029        &       -0.631    &       -0.034     \\
+\textbf{year\_2001}         &      -0.5182  &        0.152     &    -3.404  &         0.001        &       -0.817    &       -0.220     \\
+\textbf{year\_2002}         &      -0.7132  &        0.152     &    -4.687  &         0.000        &       -1.011    &       -0.415     \\
+\textbf{year\_2003}         &      -0.8583  &        0.152     &    -5.655  &         0.000        &       -1.156    &       -0.561     \\
+\textbf{year\_2004}         &      -0.8447  &        0.152     &    -5.554  &         0.000        &       -1.143    &       -0.547     \\
+\textbf{year\_2005}         &      -0.8740  &        0.152     &    -5.732  &         0.000        &       -1.173    &       -0.575     \\
+\textbf{year\_2006}         &      -1.2018  &        0.152     &    -7.886  &         0.000        &       -1.501    &       -0.903     \\
+\textbf{year\_2007}         &      -1.3385  &        0.154     &    -8.701  &         0.000        &       -1.640    &       -1.037     \\
+\textbf{year\_2008}         &      -1.5857  &        0.153     &   -10.391  &         0.000        &       -1.885    &       -1.287     \\
+\textbf{year\_2009}         &      -1.9600  &        0.152     &   -12.894  &         0.000        &       -2.258    &       -1.662     \\
+\textbf{year\_2010}         &      -1.9979  &        0.154     &   -13.004  &         0.000        &       -2.299    &       -1.697     \\
+\textbf{year\_2011}         &      -1.7033  &        0.156     &   -10.920  &         0.000        &       -2.009    &       -1.398     \\
+\textbf{year\_2012}         &      -1.6594  &        0.156     &   -10.641  &         0.000        &       -1.965    &       -1.354     \\
+\textbf{year\_2013}         &      -1.6414  &        0.157     &   -10.447  &         0.000        &       -1.949    &       -1.333     \\
+\textbf{year\_2014}         &      -1.6000  &        0.158     &   -10.137  &         0.000        &       -1.909    &       -1.291     \\
+\textbf{year\_2015}         &      -1.6591  &        0.158     &   -10.495  &         0.000        &       -1.969    &       -1.349     \\
+\textbf{year\_2016}         &      -1.7139  &        0.159     &   -10.804  &         0.000        &       -2.025    &       -1.403     \\
+\textbf{year\_2017}         &      -1.9737  &        0.159     &   -12.377  &         0.000        &       -2.286    &       -1.661     \\
+\textbf{year\_2018}         &      -1.8876  &        0.161     &   -11.699  &         0.000        &       -2.204    &       -1.571     \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lclc}
+\textbf{Omnibus:}       & 1962.395 & \textbf{  Durbin-Watson:     } &    1.641  \\
+\textbf{Prob(Omnibus):} &   0.000  & \textbf{  Jarque-Bera (JB):  } & 4529.425  \\
+\textbf{Skew:}          &  -1.146  & \textbf{  Prob(JB):          } &     0.00  \\
+\textbf{Kurtosis:}      &   5.442  & \textbf{  Cond. No.          } & 5.07e+03  \\
+\bottomrule
+\end{tabular}
+%\caption{OLS Regression Results}
+\end{center}
+
+Notes: \newline
+ [1] Standard Errors assume that the covariance matrix of the errors is correctly specified. \newline
+ [2] The condition number is large, 5.07e+03. This might indicate that there are \newline
+ strong multicollinearity or other numerical problems.
