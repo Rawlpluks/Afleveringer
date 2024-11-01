@@ -6,7 +6,7 @@ Log-Transformed Model Results:
 \textbf{Model:}             &       OLS        & \textbf{  Adj. R-squared:    } &     0.490   \\
 \textbf{Method:}            &  Least Squares   & \textbf{  F-statistic:       } &     179.8   \\
 \textbf{Date:}              & Fri, 01 Nov 2024 & \textbf{  Prob (F-statistic):} &     0.00    \\
-\textbf{Time:}              &     15:15:37     & \textbf{  Log-Likelihood:    } &   -17001.   \\
+\textbf{Time:}              &     18:12:48     & \textbf{  Log-Likelihood:    } &   -17001.   \\
 \textbf{No. Observations:}  &        9694      & \textbf{  AIC:               } & 3.411e+04   \\
 \textbf{Df Residuals:}      &        9641      & \textbf{  BIC:               } & 3.449e+04   \\
 \textbf{Df Model:}          &          52      & \textbf{                     } &             \\
