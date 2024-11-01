@@ -5,7 +5,7 @@ Dep. Variable:                  dlogS   R-squared:                       0.341
 Model:                            OLS   Adj. R-squared:                  0.337
 Method:                 Least Squares   F-statistic:                     95.95
 Date:                Fri, 01 Nov 2024   Prob (F-statistic):               0.00
-Time:                        13:45:15   Log-Likelihood:                -18265.
+Time:                        14:42:56   Log-Likelihood:                -18265.
 No. Observations:                9694   AIC:                         3.664e+04
 Df Residuals:                    9641   BIC:                         3.702e+04
 Df Model:                          52                                         
